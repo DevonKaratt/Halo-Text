@@ -1,0 +1,3 @@
+# Downloads
+
+`HaloText-Windows-0.7.2.zip` is the portable Windows release linked from the information page. The local builder checks its integrity and background launch. It has built-in English OCR and no optional source OCR, translation, or speech packs; users choose the packs they need. The ZIP is ignored by Git because it is a generated release artifact. After cloning, build it with `python frontend/build_release.py` before hosting the page, or obtain it from a published release. Keep the ZIP intact when distributing it. Its SHA-256 appears on `frontend/index.html` after a successful local build.

@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.pyw text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.ttf binary
+*.zip binary
+assets/fonts/*-OFL.txt -whitespace

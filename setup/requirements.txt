@@ -1,0 +1,17 @@
+PySide6-Essentials>=6.8,<7
+rapidocr==3.10.0
+onnxruntime>=1.20,<2
+mss>=10,<11
+ctranslate2>=4.6,<5
+sentencepiece>=0.2,<0.3
+requests>=2.32,<3
+langdetect==1.0.9
+faster-whisper>=1.2.1,<2
+PyAudioWPatch>=0.2.12.9,<0.3
+sacremoses>=0.2,<1
+edge-tts>=7.3.1,<8
+piper-tts>=1.8,<2
+
+# IndicTrans2 Tamil script restoration (runtime subset; pandas is imported by indicnlp)
+indic-nlp-library==0.92
+pandas>=3.0.6,<4

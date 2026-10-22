@@ -1,0 +1,5 @@
+# frontend
+
+`index.html` is the static information page; `manual.html` is the user guide. They have no login or account flow. The download button links to the verified portable Windows ZIP in `downloads/`. `build_release.py` assembles the ZIP and checks that the packaged app launches in the background; `portable_entry.py` is its bundled Python entry point. Temporary build files are created in `build/` and can be removed after a successful release. Keep `index.html`, `manual.html`, and `downloads/` together when hosting the page.
+
+The ZIP includes built-in English OCR but no optional source OCR, translation, or speech packs. Users choose and download those packs in HALO. The license and third-party notices travel with the release. Git tracks this frontend's source, but ignores the generated ZIP because it is too large for a normal GitHub file. Run `python frontend/build_release.py` to rebuild and verify the Windows executable and ZIP after code changes; `--assemble-only` reuses an existing verified executable and rebuilds the ZIP after documentation changes. Upload the ZIP as a GitHub Release asset or host it beside the page so the download button resolves.

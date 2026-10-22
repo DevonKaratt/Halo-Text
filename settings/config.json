@@ -1,0 +1,18 @@
+{
+  "backend": "auto",
+  "cpu_threads": 4,
+  "ocr_confidence": 0.6,
+  "max_image_edge": 1600,
+  "max_blocks": 35,
+  "capture_interval_ms": 350,
+  "settle_ms": 700,
+  "auto_interval_ms": 1800,
+  "min_font_px": 11,
+  "max_font_px": 32,
+  "cache_size": 2000,
+  "groq_model": "openai/gpt-oss-20b",
+  "target": "ta",
+  "auto_on_select": true,
+  "fast_captions": true,
+  "audio_voice_rate": 50
+}

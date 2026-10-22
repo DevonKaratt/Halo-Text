@@ -1,0 +1,30 @@
+# Local Python environment and caches
+/.venv/
+/.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Machine-specific credentials and settings
+.env
+.env.*
+/settings/config.local.json
+
+# Downloaded models and local application state
+/models/*
+!/models/README.md
+/runtime/*
+!/runtime/README.md
+
+# Generated checks; keep the team documents
+/reports/*
+!/reports/README.md
+!/reports/TEAM_ROLES.md
+!/reports/TEAM_SUMMARY.md
+
+# Frontend source is tracked; its generated build and release package are not
+/frontend/build/
+/frontend/downloads/*.zip
+
+# Accidental release/build artifacts
+*.zip
+*.log

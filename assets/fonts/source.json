@@ -1,0 +1,32 @@
+[
+  {
+    "file": "notosanssc-NotoSansSC[wght].ttf",
+    "source": "https://github.com/google/fonts/blob/main/ofl/notosanssc/NotoSansSC[wght].ttf",
+    "git_sha": "fb0637bafbcd804fe32152370a1225990745b4bc"
+  },
+  {
+    "file": "notosanssc-OFL.txt",
+    "source": "https://github.com/google/fonts/blob/main/ofl/notosanssc/OFL.txt",
+    "git_sha": "1c9f43281b8f216c5461fe9ac729afbade7724e4"
+  },
+  {
+    "file": "notosansolchiki-NotoSansOlChiki[wght].ttf",
+    "source": "https://github.com/google/fonts/blob/main/ofl/notosansolchiki/NotoSansOlChiki[wght].ttf",
+    "git_sha": "a95ba8064409f5f37a34da28e1580f785248375d"
+  },
+  {
+    "file": "notosansolchiki-OFL.txt",
+    "source": "https://github.com/google/fonts/blob/main/ofl/notosansolchiki/OFL.txt",
+    "git_sha": "877d4f998372680c2d494997541cf3a6a69b649b"
+  },
+  {
+    "file": "notosansmeeteimayek-NotoSansMeeteiMayek[wght].ttf",
+    "source": "https://github.com/google/fonts/blob/main/ofl/notosansmeeteimayek/NotoSansMeeteiMayek[wght].ttf",
+    "git_sha": "39999fd43c1dfcfdfab38bd9b9d67b71d9c0b4db"
+  },
+  {
+    "file": "notosansmeeteimayek-OFL.txt",
+    "source": "https://github.com/google/fonts/blob/main/ofl/notosansmeeteimayek/OFL.txt",
+    "git_sha": "32900c8362664a9c04687ff94101a21ea83372c9"
+  }
+]
